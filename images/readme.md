@@ -13,3 +13,5 @@ Figure 3.5 Reflected XSS Vulnerability
 Figure 3.8 Stored XSS Vulnerability
 
 Figure 3.9 Cross-Site Request Forgery (CSRF) Vulnerability
+
+Figure 4.1 Vulnerability scan using Nmap
