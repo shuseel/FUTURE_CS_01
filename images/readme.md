@@ -15,3 +15,5 @@ Figure 3.8 Stored XSS Vulnerability
 Figure 3.9 Cross-Site Request Forgery (CSRF) Vulnerability
 
 Figure 4.1 Vulnerability scan using Nmap
+
+Figure 4.2 Automated scan using ZAP
