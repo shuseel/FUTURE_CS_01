@@ -17,3 +17,5 @@ Figure 3.9 Cross-Site Request Forgery (CSRF) Vulnerability
 Figure 4.1 Vulnerability scan using Nmap
 
 Figure 4.2 Automated scan using ZAP
+
+Figure 4.3 Vulnerability scan result on ZAP 
