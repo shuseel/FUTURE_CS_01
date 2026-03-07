@@ -1,0 +1,88 @@
+HTTP/1.1 200 OK
+Date: Sat, 07 Mar 2026 14:34:48 GMT
+Server: Apache/2.4.65 (Debian)
+Set-Cookie: security=impossible; path=/; HttpOnly
+Set-Cookie: PHPSESSID=3c3e8ea9a0b6e65ebc12fa93bf7f2435; expires=Sun, 08 Mar 2026 14:34:48 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=9f81a014f86c44eb25eea68c56b1b640; expires=Sun, 08 Mar 2026 14:34:48 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Vary: Accept-Encoding
+Content-Length: 1342
+Content-Type: text/html;charset=utf-8
+
+<!DOCTYPE html>
+
+<html lang="en-GB">
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<title>Login :: Damn Vulnerable Web Application (DVWA)</title>
+
+		<link rel="stylesheet" type="text/css" href="dvwa/css/login.css" />
+
+	</head>
+
+	<body>
+
+	<div id="wrapper">
+
+	<div id="header">
+
+	<br />
+
+	<p><img src="dvwa/images/login_logo.png" /></p>
+
+	<br />
+
+	</div> <!--<div id="header">-->
+
+	<div id="content">
+
+	<form action="login.php" method="post">
+
+	<fieldset>
+
+			<label for="user">Username</label> <input type="text" class="loginInput" size="20" name="username"><br />
+
+
+			<label for="pass">Password</label> <input type="password" class="loginInput" AUTOCOMPLETE="off" size="20" name="password"><br />
+
+			<br />
+
+			<p class="submit"><input type="submit" value="Login" name="Login"></p>
+
+	</fieldset>
+
+	<input type='hidden' name='user_token' value='2e0a48213b1fd5c5d858796e2e8e646d' />
+
+	</form>
+
+	<br />
+
+	
+
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+	</div > <!--<div id="content">-->
+
+	<div id="footer">
+
+	<p><a href="https://github.com/digininja/DVWA/" target="_blank">Damn Vulnerable Web Application (DVWA)</a></p>
+
+	</div> <!--<div id="footer"> -->
+
+	</div> <!--<div id="wrapper"> -->
+
+	</body>
+
+</html>
